@@ -1,0 +1,16 @@
+﻿node_modules/
+.env
+*.log
+
+# Secrets and runtime data
+storage/data.json
+storage/account-secret.key
+
+# Backup/test files
+public/index.*test*.html
+public/index.html.backup_*
+public/index.html.before-final-encoding-fix
+server.js.backup_*
+server_backup_*
+index_full.txt
+server_full.txt
